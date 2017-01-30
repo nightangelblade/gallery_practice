@@ -1,24 +1,3 @@
-# README
+# Gallery Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Practice over the weekend creating a simple web app that allows users to upload images using the CarrierWave gem, storing it to the ActiveRecord database for display.
