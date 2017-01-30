@@ -1,0 +1,11 @@
+<h2>Image Gallery</h2>
+<ul>
+	<% @images.each do |image| %>
+		<li class="display-list">
+			<div>
+				<img class="display-index" src="<%= image.image %>" />
+			</div>
+			<%= link_to image.name, image_path(image) %>
+		</li>
+	<% end %>
+</ul>

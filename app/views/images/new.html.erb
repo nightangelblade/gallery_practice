@@ -1,0 +1,9 @@
+<div class="new-form">
+	<%= form_for @image do |f| %>
+		<p><%= f.label :name %>: 
+	  <%= f.text_field :name %></p>
+	  <p><%= f.label :image %>: 
+	  <%= f.file_field :image %></p>
+	  <p><%= f.submit "Submit" %></p>
+	<% end %>
+</div>
